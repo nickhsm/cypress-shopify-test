@@ -89,7 +89,7 @@ describe('template spec', () => {
       cy.location("pathname").should("eq", "/pages/about-us")
 
       // Get text
-      cy.get('.section-content-wrapper div > r0e-formatter > p > em').contains("From a small Antwerp")
+      cy.get('.section-content-wrapper div > rte-formatter > p > em').contains("From a small Antwerp")
     })
   })
 })
